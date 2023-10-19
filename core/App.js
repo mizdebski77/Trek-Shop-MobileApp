@@ -1,13 +1,13 @@
 import { StatusBar } from 'react-native';
-import { Home } from './features/Home/home';
 import { Wrapper } from './styledApp';
-import { useState } from 'react';
+import { Navigation } from '../common/Navigation/navigation';
+import { Home } from '../features/Home/home';
 
 export default function App() {
-  const [hidden, setHidden] = useState(true);
   return (
     <Wrapper>
-      <StatusBar hidden={hidden} />
+      <StatusBar backgroundColor='#475228' />
+      <Navigation />
       <Home />
     </Wrapper>
   );
