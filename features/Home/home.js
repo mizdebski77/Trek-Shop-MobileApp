@@ -1,10 +1,11 @@
 import React from 'react';
 import { ButtonText, Wrapper } from './styledHome';
+import { Categories } from './Sections/Categories/categories';
 
 export const Home = () => {
     return (
         <Wrapper>
-            <ButtonText>XD</ButtonText>
+            <Categories />
         </Wrapper>
     );
 };
