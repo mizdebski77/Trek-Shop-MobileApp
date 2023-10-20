@@ -29,16 +29,16 @@ export const AccountImage = styled.Image`
 `;
 
 export const MenuIcon = styled.Image`
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
 `;
 
 export const Logo = styled.Text`
     font-size: 28px;
-    color: black;
+    color: white;
     letter-spacing: 8.37px;
 `;
 
 export const LogoSpan = styled.Text`
-    color: #aeaeae;
+    color: #7a7a7a;
 `;  

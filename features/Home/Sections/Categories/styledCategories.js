@@ -17,7 +17,7 @@ export const Title = styled.Text`
 export const TilesWrapper = styled.View`
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
     align-items: center;
 `;
 
