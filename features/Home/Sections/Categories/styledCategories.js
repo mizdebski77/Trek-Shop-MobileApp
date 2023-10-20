@@ -9,8 +9,9 @@ export const Wrapper = styled.View`
 `;
 
 export const Title = styled.Text`
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
+    margin: 20px 0;
 `;
 
 export const TilesWrapper = styled.View`
